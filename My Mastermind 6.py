@@ -1,5 +1,5 @@
 # Mastermind
-# check guess input
+# check guess input, it's faulty
 
 import random
 import os
