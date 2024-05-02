@@ -2,7 +2,6 @@
 # check guess input, it's faulty
 
 import random
-import os
 
 CODELEN = 4    #length of secret code
 
@@ -13,11 +12,11 @@ def new_code(d):
     return s
 
 def enter_guess():
-    str = "abcde"
-    while str.isdigit()==False or len(str)!=CODELEN:
+    s = "abcde"
+    while s.isdigit()==False or len(s)!=CODELEN:
         print(f"\nEnter the {CODELEN} digit code: ",end="")
-        str = input()
-    return str
+        s = input()
+    return s
 
 def check_guess(guess,code):
     x = ""
