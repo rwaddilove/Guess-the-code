@@ -63,7 +63,6 @@ while not done and goes>0:
     guess = enter_guess()
     score = check_guess(guess,code)
     history[goes] = "Guess " + str(goes) + ": " + guess + " Score: " + score #+ " (" + code + ")"
-    os.system('cls')
     print("\n----------------------")
     print(" M A S T E R M I N D")
     print("---------------------\n")
