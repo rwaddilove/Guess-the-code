@@ -1,5 +1,5 @@
 # Mastermind
-# check guess input, it's faulty
+# part written, buggy, not finished!
 
 import random
 
