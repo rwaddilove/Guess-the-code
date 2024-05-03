@@ -1,6 +1,8 @@
 # Mastermind
 # I think this is done. It seems to work.
-# Probably not good code
+# Probably not good code. Use it, copy it.
+# Don't blame me if it breaks your computer.
+# Roland Waddilove 
 
 import random
 import os
