@@ -1,5 +1,6 @@
 # Mastermind
-# set the code length
+# I think this is done. It seems to work.
+# Probably not good code
 
 import random
 import os
